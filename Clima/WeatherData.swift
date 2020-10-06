@@ -18,6 +18,6 @@ struct Main : Decodable {
     let temp : Double
 }
 
-struct Weather : Decodable{
-    let desciption : String
+struct Weather : Decodable {
+    let id : Int
 }
